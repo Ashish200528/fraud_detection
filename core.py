@@ -4,14 +4,9 @@ import uuid
 import os
 from datetime import datetime 
 import google.generativeai as genai
-# from google.generativeai.types import Content, Part, GenerateContentConfig
-# from google.genai import types
-# from google.generativeai  import configure as 
 
 
-# genai.configure(api_key="AIzaSyA8jsA-iZ9rbo60GwHEoTM0FdybbIItFx0")
-
-mdb = sql.connect(host="localhost", user="root", passwd="Student1020@", database="bank_management")
+mdb = sql.connect(host="localhost", user="root", passwd="12345", database="bank_management")
 cur = mdb.cursor()
 
 def main(s_acc, r_acc, amt, trx_time, trx_type):
@@ -333,7 +328,7 @@ give me the fraud score in the first output column and also given the fraud scor
 
 def generate_response(system_instruction: str, user_input: str) -> str:
     # Configure API key
-    genai.configure(api_key="AIzaSyA8jsA-iZ9rbo60GwHEoTM0FdybbIItFx0")
+    genai.configure(api_key="API KEY")
     
     # Load the generative model
     model = genai.GenerativeModel("gemini-2.0-flash")  # Ensure model name is correct
