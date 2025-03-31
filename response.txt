@@ -1,0 +1,56 @@
+Fraud Score: 75/100 (High Risk)
+
+Reasoning Summary:
+1. Amount Deviation: Transaction amount (501) is significantly lower than the historical average (6916.67).
+2. Unusual Timing: Transaction occurred at 00:45 AM, outside typical activity hours.
+3. IP Address: IP address (10.21.15.106) is a new IP address and is different from historical transactions.
+4. Transaction Type: The current transaction type is international, which is consistent with some historical transactions.
+Okay, I understand. I will analyze the provided data and output the fraud score and reason breakdown according to the specified format, weights, and risk levels.
+
+Input:
+
+*   spam\_reports = 3
+*   suspect\_score = 20
+*   account\_creation\_date = 2025-03-03 12:21:01
+*   transaction\_date = 2025-03-30 12:21:01
+
+Output:
+
+**64/100**
+
+Reason for Fraud Score:
+
+*   **Elevated Suspect Score (20/25):** 80% suspicion rate detected.
+*   **Medium Spam Reports (3):** Indicates an elevated risk of fraudulent activity.
+*   **High Risk Account Age (27 days):** Account age falls within a high-risk timeframe.
+**Fraud Score:** 70/100 (High Risk)
+
+**Reasoning Summary:**
+1. Amount Deviation: Transaction amount ($501) is significantly higher than the historical average for this account.
+2. Unusual Timing: Transaction occurred at 00:45 AM, outside typical activity hours.
+3. IP Address: IP address (10.21.15.106) is different from historical domestic IP addresses.
+Okay, I understand. Here's the fraud risk analysis based on your instructions.
+
+**Input Parameters:**
+
+*   spam\_reports: 3
+*   suspect\_score: 20
+*   account\_creation\_date: 2025-03-01 00:00:01
+*   transaction\_date: 2025-03-30 12:21:01
+
+**Output:**
+
+**76/100**
+
+Reason for Fraud Score:
+
+*   **Elevated Suspect Score (20/25):** 80% suspicion rate detected.
+*   **Medium Spam Reports (3):** Indicates a medium risk of fraudulent activity.
+*   **High Account Age (29 days):** Indicates a high risk for fraud.
+**Fraud Score:** 60/100 (High Risk)
+
+**Reasoning Summary:**
+1. Amount Deviation: Transaction amount (501) is significantly lower than the historical average (6000).
+2. Transaction Type: Current Transaction type is International whereas other are domestic.
+3. IP Consistency: IP address (10.21.15.106) is new and inconsistent with historical patterns.
+Okay, I understand. Please provide the input parameters: spam_reports, suspect_score, account_creation_date, and transaction_date. I will then calculate the fraud score and provide the reason breakdown in the specified format.
